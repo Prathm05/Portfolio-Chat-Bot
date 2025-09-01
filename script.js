@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = "<div class='social'> <a target='_blank' href='tel:+919890376100'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>9890376100</label></div> </a> <a href='mailto:prathmeshtakarde8@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Prathm05'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/9890376100'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/Prathm7728'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/prathmesh_t_05'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https:www.linkedin.com/in/prathmesh-takarde-4994522a0/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Prathmesh_Takarde Resume.pdf</label></div><a href='assets/Prathmesh_Takarde Resume.pdf' download='Prathmesh_Takarde Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var resumeString = "<img class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Prathmesh_Takarde_Resume.pdf</label></div><a href='assets/Prathmesh_Takarde Resume.pdf' download='Prathmesh_Takarde Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.067487261012!2d76.47189867497533!3d20.837976385513738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd752ef9f4f127d%3A0x4bf6ab647dbf0b90!2sNandura%2C%20Maharashtra%20443504!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>'Nimgaon'<br>Nandura<br>Nandura, Maharashtra, INDIA 443404</address>";
 function startFunction() {
     setLastSeen();
@@ -171,4 +171,5 @@ function sendResponse() {
 
 function playSound() {
     audio.play();
+
 }
